@@ -36,7 +36,7 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 
-    private static final String[] WORD_LIST = {
+    static final String[] WORD_LIST = {
         "æble",
         "kurv",
         "frokost",
@@ -49,7 +49,7 @@ final class StaticWordLibrary extends WordLibrary {
         "knage"
     };
 
-    private static final String[] SCRAMBLED_WORD_LIST = {
+    static final String[] SCRAMBLED_WORD_LIST = {
         "lebæ",
         "vruk",
         "krofsto",
@@ -67,7 +67,7 @@ final class StaticWordLibrary extends WordLibrary {
     /**
      * Singleton class.
      */
-    private StaticWordLibrary() {
+    StaticWordLibrary() {
     }
 
     /**
