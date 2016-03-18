@@ -41,7 +41,9 @@ final class StaticWordLibrary extends WordLibrary {
         "minute",
         "hour",
         "day",
-        "week"
+        "week",
+        "january",
+        "february"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
@@ -49,7 +51,9 @@ final class StaticWordLibrary extends WordLibrary {
         "mnuiet",
         "rohu",
         "yad",
-        "kewe"
+        "kewe",
+        "jnuaary",
+        "fbruarey"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
