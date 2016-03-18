@@ -37,23 +37,29 @@ package com.toy.anagrams.lib;
 final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
-        "second", 
-        "minute",
-        "hour",
-        "day",
-        "week",
-        "january",
-        "february"
+        "æble",
+        "kurv",
+        "frokost",
+        "havre",
+        "ymer",
+        "vinkelsliber",
+        "smeltepunkt",
+        "skruetvinge",
+        "jernmalm",
+        "knage"
     };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "scoend",
-        "mnuiet",
-        "rohu",
-        "yad",
-        "kewe",
-        "jnuaary",
-        "fbruarey"
+        "lebæ",
+        "vruk",
+        "krofsto",
+        "hreva",
+        "ryem",
+        "slinkelviber",
+        "peltesmunkt",
+        "tvueskringe",
+        "mernjalm",
+        "gakne"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
